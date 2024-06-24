@@ -4,6 +4,14 @@
   align-items: center;
   height: 100vh;
 }
+
+body {
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .flex-container {
   display: flex;
   justify-content: space-evenly;
