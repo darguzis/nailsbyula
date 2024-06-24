@@ -16,7 +16,7 @@ body {
   &::before {
     content: " ";
     position: fixed; /* instead of background-attachment */
-    width: 100%;
+    width: 100dvw;
     height: 100dvh;
     top: 0;
     left: 0;
