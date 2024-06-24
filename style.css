@@ -9,8 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-image: url("./images/background.jpeg");
-  background-repeat: no-repeat;
   color: white;
   /*background-size: cover;
   background-attachment: fixed;*/
