@@ -101,8 +101,4 @@ body {
     padding: 0;
   }
 
-  body {
-    background-attachment: scroll;
-    height: 100% !important;
-  }
 }
