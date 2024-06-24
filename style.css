@@ -103,6 +103,7 @@ body {
 
   body{
     height:100dvh;
+    background-attachment:scroll;
   }
 
 }
