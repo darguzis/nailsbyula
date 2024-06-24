@@ -10,21 +10,19 @@ html {
 }
 body {
   color: white;
-  /*background-size: cover;
-  background-attachment: fixed;*/
+  background-size: cover;
+  /*background-attachment: fixed;*/
   /* Fixed-position background image */
-  &::before {
-    content: " ";
-    position: fixed; /* instead of background-attachment */
-    width: 100dvw;
-    height: 100dvh;
-    top: 0;
-    left: 0;
-    background-color: white;
-    background: url("./images/background.jpeg") no-repeat center center;
-    background-size: cover;
-    will-change: transform; /* creates a new paint layer */
-    z-index: -1;
+  content: " ";
+  position: fixed; /* instead of background-attachment */
+  width: 100dvw;
+  height: 100dvh;
+  top: 0;
+  left: 0;
+  background-color: white;
+  background: url("./images/background.jpeg") no-repeat center center;
+  background-size: cover;
+  z-index: -1;
   }
 }
 .flex-container {
